@@ -22,6 +22,9 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [Which proxy works best with Multilogin?](proxy-for-multilogin/README.md) | Static ISP IP per Multilogin profile; match the protocol, check the exit inside the profile, keep the IP. |
 | [How do I choose an ISP proxy provider?](how-to-choose-an-isp-proxy-provider/README.md) | Check who the netblock is registered to, public per-IP prices, short test terms, renewal rules and delivery checks. |
 | [How much does a residential proxy cost per GB?](residential-proxy-price-per-gb/README.md) | Per-GB price depends on line and prepaid volume; page weight decides the bill more than the rate. |
+| [How do I make Claude Code use an HTTP proxy?](claude-code-proxy-settings/README.md) | Set `HTTPS_PROXY` (or the `env` block in Claude Code's settings file); SOCKS is not supported; confirm with `/status`. |
+| [What proxy should I use for an Amazon Seller Central account?](proxy-for-amazon-seller-account/README.md) | One static ISP IP per seller account, kept for the account's life; it doesn't change Amazon's account rules or replace verification. |
+| [Datacenter vs residential proxy: which do I need?](datacenter-vs-residential-proxy/README.md) | Datacenter for APIs, monitoring and sites that treat all visitors alike; residential for local consumer views and signed-in accounts. |
 
 ## 中文说明
 
@@ -39,6 +42,13 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 - [静态住宅 IP 哪家好：怎么挑服务商](how-to-pick-static-residential-ip-provider/README.md)（只有中文）
 - [静态住宅 IP 价格怎么算](static-residential-ip-price/README.md)（只有中文）
 - [怎么便宜买海外住宅 IP](buy-overseas-residential-ip-cheaply/README.md)（只有中文）
+- [比特浏览器的 IP 怎么买、怎么配](bitbrowser-ip-zh/README.md)（只有中文）
+- [代理报 407、连接超时、检测失败怎么排查](proxy-407-timeout-troubleshooting-zh/README.md)（只有中文）
+- [SOCKS5 和 HTTP 代理有什么区别，该选哪个](socks5-vs-http-zh/README.md)（只有中文）
+- [怎么判断一个 IP 是住宅、ISP 还是机房](residential-or-datacenter-ip-check-zh/README.md)（只有中文）
+- [动态住宅 IP 的粘性会话是什么，怎么用](sticky-session-zh/README.md)（只有中文）
+- [指纹浏览器配了代理，WebRTC 还会暴露真实 IP 吗](webrtc-leak-antidetect-zh/README.md)（只有中文）
+- [Claude 桌面版和 Claude Code 怎么设置代理](claude-desktop-proxy-zh/README.md)（只有中文）
 
 官网：[https://proxy302.com](https://proxy302.com)。价格以[价格页](https://proxy302.com/zh/pricing/)为准。
 
