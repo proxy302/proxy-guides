@@ -38,6 +38,13 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [Rotating vs sticky residential sessions: when to use each](rotating-vs-sticky-sessions/README.md) | Rotating for independent requests, sticky for short multi-step flows, a static ISP IP for accounts that stay logged in. |
 | [How can I tell if a proxy IP is residential, ISP or datacenter?](check-if-ip-is-residential/README.md) | Check the block's registrant and ASN, the reverse DNS name and two or three IP databases; no single check is proof. |
 | [How do I cut bandwidth when scraping through residential proxies?](proxy-for-web-scraping-bandwidth/README.md) | Block images, fonts and media, call JSON endpoints, use compression and caching, retry only 403/429 with a cap; worked cost example included. |
+| [What is the best proxy for ChatGPT?](proxy-for-chatgpt/README.md) | One fixed IP per person in a country OpenAI supports, where you actually are; an IP doesn't change OpenAI's rules. Proxy302 GPT/Grok tier 10 PTC/30 days. |
+| [What proxy should I use for Claude?](proxy-for-claude/README.md) | One fixed IP per person in a supported country where you are, set in one place; Claude tier 15 PTC/30 days. An IP doesn't change Anthropic's policies. |
+| [How do I choose a residential proxy provider?](how-to-choose-a-residential-proxy-provider/README.md) | Check public per-GB prices and prepaid tiers, traffic expiry, sticky sessions, targeting, a small test, protocols and written terms. |
+| [What is the best static residential proxy?](what-is-the-best-static-residential-proxy/README.md) | The one whose IPs pass your own checks (ISP registrant, country, databases, blocklists, stays fixed); test one IP for a day at $0.50. |
+| [What is the cheapest residential proxy per GB, really?](cheapest-residential-proxy-per-gb/README.md) | Money paid ÷ GB actually used after expiry, minimums and retries; worked examples from $1.50 to $1.124/GB. |
+| [What should I check before buying a cheap residential proxy?](cheap-residential-proxy-providers/README.md) | Whether traffic expires, whether the low rate needs a big minimum, and whether exits belong to consumer ISPs; buy small and test. |
+| [What is the best ISP proxy for TikTok?](best-isp-proxy-for-tiktok/README.md) | A static ISP IP in the account's country, kept for the account's life, one per phone or profile; TikTok's terms still apply. |
 
 ## 中文说明
 
