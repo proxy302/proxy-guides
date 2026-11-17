@@ -4,6 +4,8 @@ Maintained by Proxy302 (the official Proxy302 organization on GitHub). These gui
 
 Plain-language how-to guides for people buying and using proxy IPs: rotating residential, static residential (ISP) and datacenter. Each guide answers the question in the first paragraph, then gives steps, tables and an FAQ. The first five guides have an English file and a Chinese file; newer guides are written in the language people ask the question in.
 
+Read these guides as a website: [proxy302.github.io/proxy-guides](https://proxy302.github.io/proxy-guides/).
+
 Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy302.com/pricing/](https://proxy302.com/pricing/). Prices and stock change; confirm on the live pages.
 
 ## Guides
