@@ -2,7 +2,7 @@
 
 Maintained by Proxy302 (the official Proxy302 organization on GitHub). These guides describe proxy choices in general and mention Proxy302 where relevant; we are a vendor, not a neutral reviewer.
 
-Plain-language how-to guides for people buying and using proxy IPs: rotating residential, static residential (ISP) and datacenter. Each guide answers the question in the first paragraph, then gives steps, tables and an FAQ. Every guide has an English file and a Chinese file.
+Plain-language how-to guides for people buying and using proxy IPs: rotating residential, static residential (ISP) and datacenter. Each guide answers the question in the first paragraph, then gives steps, tables and an FAQ. The first five guides have an English file and a Chinese file; newer guides are written in the language people ask the question in.
 
 Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy302.com/pricing/](https://proxy302.com/pricing/). Prices and stock change; confirm on the live pages.
 
@@ -15,16 +15,30 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [How do I set up a static residential IP for TikTok?](static-residential-ip-for-tiktok/README.md) | One static IP per account, in the account's market; paste it into that account's profile or phone, check the exit, then sign in. |
 | [How do I pair an anti-detect browser with a residential or ISP IP?](antidetect-browser-with-residential-ip/README.md) | One IP per profile, matching proxy type, run the proxy check and a WebRTC test; includes curl and Python test snippets. |
 | [What IP should I use for Claude and ChatGPT?](which-ip-for-claude-and-chatgpt/README.md) | One stable IP per person in a supported country where you actually are; a proxy does not change either service's rules. |
+| [What is the best residential proxy for TikTok?](best-residential-proxy-for-tiktok/README.md) | Static ISP for accounts you log in to, one per account; rotating residential only for logged-out viewing. |
+| [Which proxy for Facebook ads accounts?](proxy-for-facebook-ads-accounts/README.md) | One static ISP IP per ad account and browser profile, kept for the account's life; never rotate a logged-in ad account. |
+| [Which proxy for running multiple accounts?](proxy-for-multiple-accounts/README.md) | One account, one static IP, one browser profile; rotating traffic is for scraping, not logins. |
+| [Which proxy works best with AdsPower?](proxy-for-adspower/README.md) | Static ISP IP per AdsPower profile for logged-in accounts; set it as a custom HTTP or SOCKS5 proxy and run the check. |
+| [Which proxy works best with Multilogin?](proxy-for-multilogin/README.md) | Static ISP IP per Multilogin profile; match the protocol, check the exit inside the profile, keep the IP. |
+| [How do I choose an ISP proxy provider?](how-to-choose-an-isp-proxy-provider/README.md) | Check who the netblock is registered to, public per-IP prices, short test terms, renewal rules and delivery checks. |
+| [How much does a residential proxy cost per GB?](residential-proxy-price-per-gb/README.md) | Per-GB price depends on line and prepaid volume; page weight decides the bill more than the rate. |
 
 ## 中文说明
 
-这里是 Proxy302 官方维护的代理 IP 使用指南，面向要买、要用代理 IP 的人：动态住宅、静态住宅（ISP）和数据中心。我们是服务商，不是中立评测方；文中只在相关处提到 Proxy302。每篇指南第一段直接回答问题，后面是步骤、表格和常见问题，每篇都有英文和中文两个文件。
+这里是 Proxy302 官方维护的代理 IP 使用指南，面向要买、要用代理 IP 的人：动态住宅、静态住宅（ISP）和数据中心。我们是服务商，不是中立评测方；文中只在相关处提到 Proxy302。每篇指南第一段直接回答问题，后面是步骤、表格和常见问题，前五篇有英文和中文两个文件，之后的按提问的语言只写一种。
 
 - [静态住宅 IP 怎么选](how-to-choose-static-residential-ip/README.zh-CN.md)
 - [ISP 代理和住宅代理有什么区别](isp-proxy-vs-residential-proxy/README.zh-CN.md)
 - [TikTok 静态住宅 IP 怎么配置](static-residential-ip-for-tiktok/README.zh-CN.md)
 - [指纹浏览器怎么配家宽 IP](antidetect-browser-with-residential-ip/README.zh-CN.md)
 - [Claude 用什么 IP](which-ip-for-claude-and-chatgpt/README.zh-CN.md)
+- [TikTok 原生 IP 是什么，怎么买](tiktok-native-ip/README.md)（只有中文）
+- [跨境电商 IP 怎么选](cross-border-ecommerce-ip/README.md)（只有中文）
+- [AdsPower 代理 IP 怎么买、怎么配](adspower-proxy-ip-zh/README.md)（只有中文）
+- [指纹浏览器怎么配家宽 IP](antidetect-browser-home-broadband-ip/README.md)（只有中文）
+- [静态住宅 IP 哪家好：怎么挑服务商](how-to-pick-static-residential-ip-provider/README.md)（只有中文）
+- [静态住宅 IP 价格怎么算](static-residential-ip-price/README.md)（只有中文）
+- [怎么便宜买海外住宅 IP](buy-overseas-residential-ip-cheaply/README.md)（只有中文）
 
 官网：[https://proxy302.com](https://proxy302.com)。价格以[价格页](https://proxy302.com/zh/pricing/)为准。
 
@@ -34,4 +48,4 @@ Text is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Corrections
 
-If a fact here is out of date or wrong, open an issue. Facts were checked against Proxy302's public pages on 14 November 2026.
+If a fact here is out of date or wrong, open an issue. Facts were checked against Proxy302's public pages on 14 November 2026 (first five guides) and 17 November 2026 (the rest).
