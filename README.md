@@ -25,6 +25,19 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [How do I make Claude Code use an HTTP proxy?](claude-code-proxy-settings/README.md) | Set `HTTPS_PROXY` (or the `env` block in Claude Code's settings file); SOCKS is not supported; confirm with `/status`. |
 | [What proxy should I use for an Amazon Seller Central account?](proxy-for-amazon-seller-account/README.md) | One static ISP IP per seller account, kept for the account's life; it doesn't change Amazon's account rules or replace verification. |
 | [Datacenter vs residential proxy: which do I need?](datacenter-vs-residential-proxy/README.md) | Datacenter for APIs, monitoring and sites that treat all visitors alike; residential for local consumer views and signed-in accounts. |
+| [How do I use a proxy with Python requests?](python-requests-proxy/README.md) | Map http and https to one proxy URL; for SOCKS5 install `requests[socks]` and use `socks5h://`. One-off calls can rotate; a Session keeps one exit. |
+| [How do I use a proxy with httpx or aiohttp?](httpx-aiohttp-proxy/README.md) | httpx 0.28 takes `proxy=`; aiohttp takes `proxy=` plus `proxy_auth=` and HTTP proxies only. SOCKS5 needs `httpx[socks]` or `aiohttp-socks`. |
+| [How do I set a proxy in Playwright?](playwright-proxy/README.md) | Pass `{server, username, password}` to `launch()` or `new_context()`; with a password use HTTP, because Playwright rejects authenticated SOCKS5. |
+| [How do I use an authenticated proxy with Puppeteer?](puppeteer-proxy/README.md) | Launch with `--proxy-server` and call `page.authenticate()`; `createBrowserContext({proxyServer})` gives one proxy per context. |
+| [How do I use a proxy with Selenium?](selenium-proxy/README.md) | `--proxy-server` for proxies without a password; for a password, run a local forwarder. selenium-wire is archived. |
+| [How do I use rotating residential proxies with Scrapy?](scrapy-proxy/README.md) | Set `meta["proxy"]` or a small middleware and retry 403/429; Scrapy reuses tunnels, so send `Connection: close` to rotate on retry. |
+| [How do I use a proxy in Node.js?](nodejs-proxy/README.md) | undici `ProxyAgent` with undici `fetch`, or `NODE_USE_ENV_PROXY=1`; axios with `https-proxy-agent` and `proxy: false`; SOCKS5 via `socks-proxy-agent`. |
+| [curl proxy cheat sheet: HTTP, HTTPS, SOCKS5, auth, exit IP](curl-proxy-cheatsheet/README.md) | `-x` with a full proxy URL, `-U` for credentials, `socks5h://` for SOCKS5; `-w %{http_connect}` separates the proxy's status from the site's. |
+| [How do I use a proxy in Go net/http?](go-http-proxy/README.md) | `Transport.Proxy = http.ProxyURL(u)` handles `http://` and `socks5://`; disable keep-alives to rotate per request. |
+| [SOCKS5 vs HTTP proxy: which should I use?](socks5-vs-http-proxy/README.md) | HTTP for web work and browser automation (Chromium can't authenticate to SOCKS5); SOCKS5 for non-HTTP apps, with `socks5h`. |
+| [Rotating vs sticky residential sessions: when to use each](rotating-vs-sticky-sessions/README.md) | Rotating for independent requests, sticky for short multi-step flows, a static ISP IP for accounts that stay logged in. |
+| [How can I tell if a proxy IP is residential, ISP or datacenter?](check-if-ip-is-residential/README.md) | Check the block's registrant and ASN, the reverse DNS name and two or three IP databases; no single check is proof. |
+| [How do I cut bandwidth when scraping through residential proxies?](proxy-for-web-scraping-bandwidth/README.md) | Block images, fonts and media, call JSON endpoints, use compression and caching, retry only 403/429 with a cap; worked cost example included. |
 
 ## 中文说明
 
