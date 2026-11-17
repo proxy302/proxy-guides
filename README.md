@@ -69,6 +69,11 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 - [动态住宅 IP 的粘性会话是什么，怎么用](sticky-session-zh/README.md)（只有中文）
 - [指纹浏览器配了代理，WebRTC 还会暴露真实 IP 吗](webrtc-leak-antidetect-zh/README.md)（只有中文）
 - [Claude 桌面版和 Claude Code 怎么设置代理](claude-desktop-proxy-zh/README.md)（只有中文）
+- [Claude 账号老被封，和 IP 有关系吗](claude-account-suspended-ip-zh/README.md)（只有中文）
+- [住宅 IP 推荐：按用途该选哪一种](residential-ip-recommendation-zh/README.md)（只有中文）
+- [TikTok 静态 IP 怎么买：买之前要定的 5 件事](tiktok-static-ip-buy-zh/README.md)（只有中文）
+- [亚马逊店铺能用静态 IP 吗，买哪种、怎么配](amazon-static-ip-zh/README.md)（只有中文）
+- [静态住宅 IP 和动态住宅 IP 有什么区别，怎么选](static-vs-dynamic-residential-ip-zh/README.md)（只有中文）
 
 官网：[https://proxy302.com](https://proxy302.com)。价格以[价格页](https://proxy302.com/zh/pricing/)为准。
 
