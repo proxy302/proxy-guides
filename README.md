@@ -47,6 +47,15 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [What is the cheapest residential proxy per GB, really?](cheapest-residential-proxy-per-gb/README.md) | Money paid ÷ GB actually used after expiry, minimums and retries; worked examples from $1.50 to $1.124/GB. |
 | [What should I check before buying a cheap residential proxy?](cheap-residential-proxy-providers/README.md) | Whether traffic expires, whether the low rate needs a big minimum, and whether exits belong to consumer ISPs; buy small and test. |
 | [What is the best ISP proxy for TikTok?](best-isp-proxy-for-tiktok/README.md) | A static ISP IP in the account's country, kept for the account's life, one per phone or profile; TikTok's terms still apply. |
+| [How do I use an authenticated proxy with Java HttpClient?](java-httpclient-proxy/README.md) | Use `ProxySelector.of` plus an `Authenticator` for `RequestorType.PROXY`, and clear `jdk.http.auth.tunneling.disabledSchemes`, or HTTPS returns 407. |
+| [How do I use a proxy with a username and password in C# HttpClient?](csharp-httpclient-proxy/README.md) | `WebProxy` with `NetworkCredential` on a `SocketsHttpHandler`; `socks5://` works on .NET 6+, and `HTTPS_PROXY` works without code changes. |
+| [How do I use a proxy in PHP cURL?](php-curl-proxy/README.md) | `CURLOPT_PROXY` plus `CURLOPT_PROXYUSERPWD`, `socks5h://` for SOCKS5; Guzzle and Laravel take one `proxy` option. |
+| [How do I make wget use a proxy with a username and password?](wget-proxy/README.md) | Set `https_proxy=http://HOST:PORT` and pass `--proxy-user`/`--proxy-password` (or put them in `~/.wgetrc`); wget has no SOCKS support. |
+| [How do I make git clone and push go through a proxy?](git-proxy/README.md) | `git config --global http.proxy` (or per-URL `http.<url>.proxy`), `socks5h://` for SOCKS5; SSH remotes need a `ProxyCommand`. |
+| [How do I use npm behind a proxy?](npm-proxy/README.md) | `npm config set https-proxy` and `proxy`; pnpm reads the same `.npmrc` keys; Yarn 2+ uses `httpsProxy` in `.yarnrc.yml`. |
+| [How do I open one Chrome window with its own proxy?](chrome-proxy-one-window/README.md) | Start Chrome with a new `--user-data-dir` and `--proxy-server=http://HOST:PORT`, then sign in to the proxy in the prompt; Chrome cannot log in to SOCKS5. |
+| [What does ERR_TUNNEL_CONNECTION_FAILED mean, and how do I fix it?](err-tunnel-connection-failed/README.md) | Chrome reached the proxy but its CONNECT got 403, 502 or 503; read the status with curl `%{http_connect}` and fix the cause. |
+| [Why do I get SSL errors when I use a proxy?](proxy-ssl-errors/README.md) | Either the proxy URL says `https://` for a plain HTTP proxy (use `http://`), or something intercepts TLS (trust its CA; never turn verification off). |
 
 ## 中文说明
 
@@ -76,6 +85,12 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 - [TikTok 静态 IP 怎么买：买之前要定的 5 件事](tiktok-static-ip-buy-zh/README.md)（只有中文）
 - [亚马逊店铺能用静态 IP 吗，买哪种、怎么配](amazon-static-ip-zh/README.md)（只有中文）
 - [静态住宅 IP 和动态住宅 IP 有什么区别，怎么选](static-vs-dynamic-residential-ip-zh/README.md)（只有中文）
+- [Docker 拉镜像、构建镜像怎么走代理](docker-proxy-zh/README.md)（只有中文）
+- [pip 怎么设置代理（带账号密码）](pip-proxy-zh/README.md)（只有中文）
+- [Chrome 提示「未连接到互联网，代理服务器出现问题」（ERR_PROXY_CONNECTION_FAILED）怎么办](err-proxy-connection-failed-zh/README.md)（只有中文）
+- [代理 IP 很慢，怎么判断慢在哪一段](proxy-slow-diagnose-zh/README.md)（只有中文）
+- [代理 IP 查到的国家或城市和买的不一样，怎么办](proxy-ip-location-mismatch-zh/README.md)（只有中文）
+- [代理 IP 给的是「IP:端口:账号:密码」，在各种软件里怎么填](proxy-format-zh/README.md)（只有中文）
 
 官网：[https://proxy302.com](https://proxy302.com)。价格以[价格页](https://proxy302.com/zh/pricing/)为准。
 

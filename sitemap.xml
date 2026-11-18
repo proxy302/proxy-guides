@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://proxy302.github.io/proxy-guides/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/adspower-proxy-ip-zh/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/amazon-static-ip-zh/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/antidetect-browser-home-broadband-ip/</loc><lastmod>2026-11-17</lastmod></url>
@@ -12,12 +12,18 @@
   <url><loc>https://proxy302.github.io/proxy-guides/cheap-residential-proxy-providers/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/cheapest-residential-proxy-per-gb/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/check-if-ip-is-residential/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/chrome-proxy-one-window/</loc></url>
   <url><loc>https://proxy302.github.io/proxy-guides/claude-account-suspended-ip-zh/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/claude-code-proxy-settings/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/claude-desktop-proxy-zh/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/cross-border-ecommerce-ip/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/csharp-httpclient-proxy/</loc></url>
   <url><loc>https://proxy302.github.io/proxy-guides/curl-proxy-cheatsheet/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/datacenter-vs-residential-proxy/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/docker-proxy-zh/</loc></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/err-proxy-connection-failed-zh/</loc></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/err-tunnel-connection-failed/</loc></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/git-proxy/</loc></url>
   <url><loc>https://proxy302.github.io/proxy-guides/go-http-proxy/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/how-to-choose-a-residential-proxy-provider/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/how-to-choose-an-isp-proxy-provider/</loc><lastmod>2026-11-17</lastmod></url>
@@ -25,7 +31,11 @@
   <url><loc>https://proxy302.github.io/proxy-guides/how-to-pick-static-residential-ip-provider/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/httpx-aiohttp-proxy/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/isp-proxy-vs-residential-proxy/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/java-httpclient-proxy/</loc></url>
   <url><loc>https://proxy302.github.io/proxy-guides/nodejs-proxy/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/npm-proxy/</loc></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/php-curl-proxy/</loc></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/pip-proxy-zh/</loc></url>
   <url><loc>https://proxy302.github.io/proxy-guides/playwright-proxy/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/proxy-407-timeout-troubleshooting-zh/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/proxy-for-adspower/</loc><lastmod>2026-11-17</lastmod></url>
@@ -36,6 +46,10 @@
   <url><loc>https://proxy302.github.io/proxy-guides/proxy-for-multilogin/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/proxy-for-multiple-accounts/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/proxy-for-web-scraping-bandwidth/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/proxy-format-zh/</loc></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/proxy-ip-location-mismatch-zh/</loc></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/proxy-slow-diagnose-zh/</loc></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/proxy-ssl-errors/</loc></url>
   <url><loc>https://proxy302.github.io/proxy-guides/puppeteer-proxy/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/python-requests-proxy/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/residential-ip-recommendation-zh/</loc><lastmod>2026-11-17</lastmod></url>
@@ -53,6 +67,7 @@
   <url><loc>https://proxy302.github.io/proxy-guides/tiktok-native-ip/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/tiktok-static-ip-buy-zh/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/webrtc-leak-antidetect-zh/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://proxy302.github.io/proxy-guides/wget-proxy/</loc></url>
   <url><loc>https://proxy302.github.io/proxy-guides/what-is-the-best-static-residential-proxy/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://proxy302.github.io/proxy-guides/which-ip-for-claude-and-chatgpt/</loc><lastmod>2026-11-17</lastmod></url>
 </urlset>
