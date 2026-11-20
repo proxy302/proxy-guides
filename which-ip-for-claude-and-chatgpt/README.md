@@ -15,7 +15,7 @@ So the honest question is not "which IP unlocks it" but "which IP gives my legit
 ## What a fixed IP does help with
 
 - **Consistency.** The same address registered to an internet provider every time you sign in, instead of an exit that changes between sessions or a VPN many people use.
-- **Teams.** One address per person. Claude Enterprise can restrict access to allowlisted IP ranges; a static IP gives a remote team member one address the admin can add.
+- **Teams.** One address per person. Claude Enterprise can restrict access to allowlisted IP ranges; a static IP gives a remote team member one address the admin can add. Your own organisation's admin adds the address; Proxy302 does not register IPs with Anthropic, its IPs are not on any allowlist, and an allowlisted IP does not exempt an account from identity or phone verification.
 - **Claude Code.** It reads standard proxy variables but does not support SOCKS, so it needs an HTTP proxy.
 
 ## Which type to choose
@@ -79,7 +79,7 @@ A 401 asking for a key means the location is accepted at the network level. For 
 | Claude Code cannot connect | Is the IP SOCKS5, or is the URL missing `http://`? Use an HTTP IP and the full URL. |
 | Phone verification fails | A proxy cannot help; Anthropic accepts only numbers from supported locations. |
 | Keeps signing you out | Are you switching between IP, VPN and home network, or sharing one IP between people? |
-| Team locked out after allowlisting | Is the static IP on the allowlist sent to Anthropic? |
+| Team locked out after allowlisting | Has your admin added this static IP to the organisation's allowlist in Claude's admin settings? |
 
 ## Where Proxy302 fits
 

@@ -82,7 +82,7 @@ If a firewall sits behind the proxy, allow at least `api.anthropic.com`, `claude
 
 **Does this work in the Code tab of Claude Desktop?** Anthropic documents that local Code tab sessions signed in through claude.ai can take the proxy variables from settings files. See the [Chinese guide on Claude Desktop](../claude-desktop-proxy-zh/README.md) and the official docs.
 
-**Which IP do I need for an allowlist?** A static one, so the address on the list stays valid. Rotating addresses do not suit allowlists.
+**Which IP do I need for an allowlist?** A static one, so the address on the list stays valid. Rotating addresses do not suit allowlists. Your own organisation's admin adds the address; Proxy302 does not register IPs with Anthropic, its IPs are not on any allowlist, and an allowlisted IP does not exempt an account from identity or phone verification.
 
 ## Where Proxy302 fits
 

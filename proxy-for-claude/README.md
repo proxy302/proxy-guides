@@ -9,7 +9,7 @@ Anthropic's Supported Regions Policy lists the countries and regions where Claud
 What a fixed IP is for:
 
 - **Replacing a shared VPN exit or a rotating connection.** Those make one account look like many people, or like one person hopping between addresses.
-- **A company network or allowlist.** An organisation that limits access to known addresses needs one egress IP per site or person.
+- **A company network or allowlist.** An organisation that limits access to known addresses needs one egress IP per site or person. Your own organisation's admin adds the address; Proxy302 does not register IPs with Anthropic, its IPs are not on any allowlist, and an allowlisted IP does not exempt an account from identity or phone verification.
 - **Travel between supported countries.** A team member keeps signing in through the company's one address.
 
 ## Where to put the proxy in each Claude app
