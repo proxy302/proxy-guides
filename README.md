@@ -6,7 +6,7 @@ Plain-language how-to guides for people buying and using proxy IPs: rotating res
 
 Read these guides as a website: [proxy302.github.io/proxy-guides](https://proxy302.github.io/proxy-guides/).
 
-Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy302.com/pricing/](https://proxy302.com/pricing/). Prices and stock change; confirm on the live pages.
+Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy302.com/pricing/](https://proxy302.com/pricing/). Prices change; confirm on the live pages.
 
 ## Guides
 
@@ -56,6 +56,15 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [How do I open one Chrome window with its own proxy?](chrome-proxy-one-window/README.md) | Start Chrome with a new `--user-data-dir` and `--proxy-server=http://HOST:PORT`, then sign in to the proxy in the prompt; Chrome cannot log in to SOCKS5. |
 | [What does ERR_TUNNEL_CONNECTION_FAILED mean, and how do I fix it?](err-tunnel-connection-failed/README.md) | Chrome reached the proxy but its CONNECT got 403, 502 or 503; read the status with curl `%{http_connect}` and fix the cause. |
 | [Why do I get SSL errors when I use a proxy?](proxy-ssl-errors/README.md) | Either the proxy URL says `https://` for a plain HTTP proxy (use `http://`), or something intercepts TLS (trust its CA; never turn verification off). |
+| [What does curl's "Proxy CONNECT aborted" error mean?](curl-proxy-connect-aborted/README.md) | The proxy closed the connection before answering curl's CONNECT: usually an `http://` URL on a SOCKS5 port, a refused client or an unreachable target; five checks. |
+| [Why do I get ECONNRESET in Node.js when I send requests through a proxy?](node-econnreset-proxy/README.md) | The proxy or the site reset the connection; read `err.cause`, close idle keep-alive sockets early and retry idempotent requests with undici `RetryAgent`. |
+| [Why does a website return 403 Forbidden only when I use a proxy?](site-403-only-through-proxy/README.md) | Check who sent it (`%{http_connect}` vs `%{http_code}`); if the site, look at the IP type, country and request rate. A proxy does not override a site's rules. |
+| [How do I use a proxy with a username and password in Ruby Net::HTTP?](ruby-net-http-proxy/README.md) | Pass host, port, user and password to `Net::HTTP.start`; from the environment it reads only `http_proxy`, even for HTTPS; no SOCKS support. |
+| [How do I SSH to a server through an HTTP or SOCKS5 proxy?](ssh-through-proxy/README.md) | A `ProxyCommand` with `nc -X connect` / `nc -X 5`, or `ncat --proxy-auth` when the proxy needs a password; also covers proxies that only allow port 443. |
+| [Which proxy do I need for an API that only accepts allowlisted IP addresses?](fixed-ip-for-api-allowlist/README.md) | A static IP, not rotating traffic: datacenter is usually enough ($3.99/30 days), ISP for services that refuse hosting networks; route only the API calls through it. |
+| [How do I use a proxy with a username and password in Rust reqwest?](rust-reqwest-proxy/README.md) | `Proxy::all("http://HOST:PORT")?.basic_auth(..)` on `ClientBuilder::proxy`; the `socks` feature plus `socks5h://` for SOCKS5. |
+| [How do I send Postman requests through a proxy with a username and password?](postman-proxy/README.md) | Settings → Proxy → custom proxy configuration, tick HTTP and HTTPS, turn on Proxy auth; Newman reads `HTTPS_PROXY`/`HTTP_PROXY` instead. |
+| [How do I set a proxy with a username and password in IntelliJ IDEA and other JetBrains IDEs?](jetbrains-ide-proxy/README.md) | Settings → System Settings → HTTP Proxy → Manual plus Proxy authentication; this covers the IDE only, Gradle and Maven need their own settings. |
 
 ## 中文说明
 
@@ -91,6 +100,12 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 - [代理 IP 很慢，怎么判断慢在哪一段](proxy-slow-diagnose-zh/README.md)（只有中文）
 - [代理 IP 查到的国家或城市和买的不一样，怎么办](proxy-ip-location-mismatch-zh/README.md)（只有中文）
 - [代理 IP 给的是「IP:端口:账号:密码」，在各种软件里怎么填](proxy-format-zh/README.md)（只有中文）
+- [Maven 和 Gradle 下载依赖怎么走带账号密码的代理](maven-gradle-proxy-zh/README.md)（只有中文）
+- [Homebrew 怎么走代理（brew install、brew update 下载慢或失败）](homebrew-proxy-zh/README.md)（只有中文）
+- [VS Code 怎么设置带账号密码的代理（扩展商店、更新、插件联网）](vscode-proxy-zh/README.md)（只有中文）
+- [Linux 服务器上 apt、dnf/yum 怎么走带账号密码的代理](apt-dnf-proxy-zh/README.md)（只有中文）
+- [代理 IP 被网站标记、频繁弹验证或被拒，先查哪几项](proxy-ip-flagged-check-zh/README.md)（只有中文）
+- [静态 IP 到期了还能继续用原来那个地址吗](static-ip-expiry-renew-zh/README.md)（只有中文）
 
 官网：[https://proxy302.com](https://proxy302.com)。价格以[价格页](https://proxy302.com/zh/pricing/)为准。
 
