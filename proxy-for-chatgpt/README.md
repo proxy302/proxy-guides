@@ -1,6 +1,6 @@
 # What is the best proxy for ChatGPT?
 
-The best proxy for ChatGPT is a fixed IP, not a rotating one: one stable address per person, in a country where OpenAI officially offers ChatGPT and where you actually are, used for every sign-in. Proxy302 maintains this guide and sells these proxies. Its GPT/Grok tier is a native ISP IP picked for ChatGPT Plus/Pro and SuperGrok, at 10 PTC (1 PTC = US$1) per 30 days, with the first IP at 5 PTC; a regular static ISP IP is $7.99 for 30 days. An IP does not make use from an unsupported region permitted, does not change OpenAI's usage policies or its [supported-country list](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries), and cannot guarantee that an account is never restricted.
+The best proxy for ChatGPT is a fixed IP, not a rotating one: one stable address per person, in a country where OpenAI officially offers ChatGPT and where you actually are, used for every sign-in. Proxy302 maintains this guide and sells these proxies. Proxy302's GPT/Grok tier is a dedicated native static ISP IP designed for keeping a ChatGPT account on one IP long-term: one person per IP; registration, geolocation and operator country all match; new orders get dual-ISP ranges first, which both IPinfo and IP2Location classify as an ISP network (cities marked Dual ISP on the order page); renewing normally keeps the same IP; 10 PTC (1 PTC = US$1) per 30 days, first IP half price. An IP does not make use from an unsupported region permitted, does not change OpenAI's usage policies or its [supported-country list](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries), and cannot guarantee that an account is never restricted.
 
 ## Why a fixed IP, and when you need one at all
 
@@ -16,7 +16,7 @@ If none of these apply, your normal home or office connection is fine.
 
 | Option | Fits signed-in ChatGPT use? | Why | Price at Proxy302 |
 |---|---|---|---|
-| GPT/Grok tier (AI subscription ISP) | Yes, one per person | Native ISP IP picked for this service, fixed for 30 days | 10 PTC per 30 days, first IP 5 PTC |
+| GPT/Grok tier (AI subscription ISP) | Yes, one per person | Dedicated native ISP IP, one person per IP; new orders get dual-ISP ranges first; fixed for 30 days | 10 PTC per 30 days, first IP 5 PTC |
 | Regular static ISP IP | Yes, one per person | Same address for the whole term | $7.99 per 30 days; $0.50 for a 1-day test |
 | Rotating residential | No | The address changes between connections | $1.50/GB |
 | Static datacenter | Not for a consumer account | Sites see a hosting company's address | $3.99 per 30 days |
@@ -54,7 +54,7 @@ On an iPhone, the Wi-Fi proxy screen (Settings, Wi-Fi, the (i) next to your netw
 
 **Will a proxy let me use ChatGPT where it is not offered?** No. Availability follows OpenAI's list and where you are; an IP changes neither.
 
-**GPT/Grok tier or a regular static ISP IP?** Both are fixed IPs. The tier is picked per AI service and the first one is half price; the regular IP comes in short terms, which suits a test.
+**GPT/Grok tier or a regular static ISP IP?** Both are fixed IPs. The tier is a dedicated native IP for one person, with dual-ISP ranges first on new orders, and the first one is half price; the regular IP comes in short terms, which suits a test.
 
 **Is there a free trial?** No. The cheapest test is one static IP for one day at $0.50.
 
@@ -64,4 +64,4 @@ On an iPhone, the Wi-Fi proxy screen (Settings, Wi-Fi, the (i) next to your netw
 
 Proxy302 sells AI subscription ISP IPs for 30 days: GPT/Grok tier 10 PTC, Claude tier 15 PTC, Gemini tier 8 PTC, with the first IP of each tier 50% off. It also sells regular static ISP IPs from $0.50 a day, HTTP or SOCKS5, the same price in every country. See [pricing](https://proxy302.com/pricing/) and [proxy302.com](https://proxy302.com). For Claude, read [which IP to use for Claude and ChatGPT](../which-ip-for-claude-and-chatgpt/README.md).
 
-*Facts checked 17 November 2026.*
+*Facts checked 21 November 2026.*

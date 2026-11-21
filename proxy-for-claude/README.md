@@ -1,6 +1,6 @@
 # What proxy should I use for Claude (claude.ai and the Claude apps)?
 
-Use one stable, fixed IP per person, in a country where Anthropic officially offers Claude and where you actually are, and use it from one place: one browser profile, one computer's system proxy or one phone. Proxy302 maintains this guide and sells these proxies. Its Claude tier is a native ISP IP picked for Claude Pro and Max, at 15 PTC (1 PTC = US$1) per 30 days, with the first IP at 7.5 PTC; a regular static ISP IP is $7.99 for 30 days. An IP does not make use from an unsupported region permitted, does not change Anthropic's Usage Policy or its [Supported Regions Policy](https://www.anthropic.com/supported-countries), and cannot guarantee that an account is never restricted.
+Use one stable, fixed IP per person, in a country where Anthropic officially offers Claude and where you actually are, and use it from one place: one browser profile, one computer's system proxy or one phone. Proxy302 maintains this guide and sells these proxies. Proxy302's Claude tier is a dedicated native static ISP IP designed for keeping a Claude account on one IP long-term: one person per IP; registration, geolocation and operator country all match; new orders get dual-ISP ranges first, which both IPinfo and IP2Location classify as an ISP network (cities marked Dual ISP on the order page); renewing normally keeps the same IP; 15 PTC (1 PTC = US$1) per 30 days, first IP half price. An IP does not make use from an unsupported region permitted, does not change Anthropic's Usage Policy or its [Supported Regions Policy](https://www.anthropic.com/supported-countries), and cannot guarantee that an account is never restricted.
 
 ## Read the policy before buying anything
 
@@ -54,7 +54,7 @@ What a fixed IP is for:
 
 **Does a proxy let me use Claude in an unsupported region?** No. The policy follows where you are and who controls your organisation.
 
-**Claude tier or a regular static ISP IP?** Both stay fixed. The Claude tier is picked for Claude and its first IP is half price; a regular static ISP IP comes in 1 to 90 day terms if you want to test first.
+**Claude tier or a regular static ISP IP?** Both stay fixed. The Claude tier is a dedicated native IP for one person, with dual-ISP ranges first on new orders, and its first IP is half price; a regular static ISP IP comes in 1 to 90 day terms if you want to test first.
 
 **Can one HTTP IP serve claude.ai and Claude Code for the same person?** Yes; both can use the same HTTP proxy.
 
@@ -64,4 +64,4 @@ What a fixed IP is for:
 
 Proxy302 sells AI subscription ISP IPs for 30 days: Claude tier 15 PTC, GPT/Grok tier 10 PTC, Gemini tier 8 PTC, with the first IP of each tier 50% off. Regular static ISP IPs cost $0.50 for one day up to $23.97 for 90 days, the same in every country, with HTTP or SOCKS5 chosen at purchase. See [pricing](https://proxy302.com/pricing/), [proxy302.com](https://proxy302.com) and the [Chinese site](https://proxy302.com/zh/). For both AI services side by side, read [which IP to use for Claude and ChatGPT](../which-ip-for-claude-and-chatgpt/README.md).
 
-*Facts checked 17 November 2026.*
+*Facts checked 21 November 2026.*

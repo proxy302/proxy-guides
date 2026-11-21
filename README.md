@@ -65,6 +65,14 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [How do I use a proxy with a username and password in Rust reqwest?](rust-reqwest-proxy/README.md) | `Proxy::all("http://HOST:PORT")?.basic_auth(..)` on `ClientBuilder::proxy`; the `socks` feature plus `socks5h://` for SOCKS5. |
 | [How do I send Postman requests through a proxy with a username and password?](postman-proxy/README.md) | Settings → Proxy → custom proxy configuration, tick HTTP and HTTPS, turn on Proxy auth; Newman reads `HTTPS_PROXY`/`HTTP_PROXY` instead. |
 | [How do I set a proxy with a username and password in IntelliJ IDEA and other JetBrains IDEs?](jetbrains-ide-proxy/README.md) | Settings → System Settings → HTTP Proxy → Manual plus Proxy authentication; this covers the IDE only, Gradle and Maven need their own settings. |
+| [What is a dual ISP IP, and how do I check one myself? (2026)](what-is-dual-isp-ip/README.md) | IPinfo's ASN type and IP2Location's usage type must both say ISP; check both public lookup pages yourself. Proxy302 Claude and GPT/Grok tiers give new orders dual-ISP ranges first. |
+| [Native IP vs broadcast IP: what the labels mean and when it matters (2026)](native-vs-broadcast-ip/README.md) | Native means registry, geolocation and announcing network name one country; broadcast means the registry points elsewhere. Check with ipinfo and whois; it says nothing about residential vs datacenter. |
+| [Which IP for a long-term Gemini Advanced / Google AI Pro account? (2026)](proxy-for-gemini/README.md) | One fixed IP per person in a country on Google's Gemini list (and the shorter AI Studio list) where you are; Proxy302 Gemini tier 8 PTC/30 days. An IP doesn't change Google's rules. |
+| [What proxy should I use for an eBay seller account?](proxy-for-ebay-seller-account/README.md) | One static ISP IP per account in one browser profile, kept for the account's life; eBay allows multiple accounts but not to avoid restrictions, and limits can reach linked accounts. |
+| [What proxy should I use for an Etsy shop, or several Etsy shops?](proxy-for-etsy-shop/README.md) | One static ISP IP and one browser profile per Etsy account; Etsy allows multiple shops with a separate account and email each, listed on every public profile. |
+| [What proxy should I use for Google Ads accounts?](proxy-for-google-ads-accounts/README.md) | Use a manager account for many accounts; add one static ISP IP per person only where their connection is unstable or shared. New accounts after a suspension break Google's policy. |
+| [How do I set a proxy on an iPhone (Wi-Fi HTTP proxy) and check it works?](iphone-proxy-settings/README.md) | Settings → Wi-Fi → (i) → Configure Proxy → Manual, turn on Authentication, then check ipinfo.io in Safari; HTTP only, one Wi-Fi network, not mobile data. |
+| [Which proxy should I use for price monitoring?](proxy-for-price-monitoring/README.md) | Rotating residential per GB for sites that price by country or refuse servers; datacenter when the target treats all visitors alike or allowlists one IP. Estimate GB from page weight first. |
 
 ## 中文说明
 
@@ -106,6 +114,13 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 - [Linux 服务器上 apt、dnf/yum 怎么走带账号密码的代理](apt-dnf-proxy-zh/README.md)（只有中文）
 - [代理 IP 被网站标记、频繁弹验证或被拒，先查哪几项](proxy-ip-flagged-check-zh/README.md)（只有中文）
 - [静态 IP 到期了还能继续用原来那个地址吗](static-ip-expiry-renew-zh/README.md)（只有中文）
+- [双 ISP IP 是什么，怎么自己查（2026）](dual-isp-ip-zh/README.md)（只有中文）
+- [原生 IP 和广播 IP 怎么区分，自己怎么查](native-ip-check-zh/README.md)（只有中文）
+- [Shopee 多店铺用什么 IP](shopee-ip-zh/README.md)（只有中文）
+- [Instagram 多账号（官方：一次最多登录 10 个）用什么 IP](instagram-ip-zh/README.md)（只有中文）
+- [Mac 怎么设置系统代理并验证出口](macos-proxy-settings-zh/README.md)（只有中文）
+- [安卓手机 Wi-Fi 代理怎么设、怎么验证](android-proxy-settings-zh/README.md)（只有中文）
+- [Windows 11 怎么设置代理并验证出口](windows-proxy-settings-zh/README.md)（只有中文）
 
 官网：[https://proxy302.com](https://proxy302.com)。价格以[价格页](https://proxy302.com/zh/pricing/)为准。
 
