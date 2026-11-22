@@ -6,8 +6,8 @@ Use one stable IP per person, in a country where Google offers Gemini and where 
 
 | Product | Google's page | What we read on 21 November 2026 |
 |---|---|---|
-| Gemini web app (where Google AI Pro, the plan that used to carry the Gemini Advanced name, is used) | [Where you can use the Gemini web app](https://support.google.com/gemini/answer/13575153) | Over 230 countries and territories; mainland China appears only as "Workspace only"; Russia is not listed; the mobile app may have different availability |
-| Google AI Studio and the Gemini API | [Available regions for Google AI Studio and Gemini API](https://ai.google.dev/gemini-api/docs/available-regions) | A shorter list; mainland China, Hong Kong, Macau and Russia are not on it |
+| Gemini web app (where Google AI Pro, the plan that used to carry the Gemini Advanced name, is used) | [Where you can use the Gemini web app](https://support.google.com/gemini/answer/13575153) | Over 230 countries and territories; Russia is not listed; the mobile app may have different availability |
+| Google AI Studio and the Gemini API | [Available regions for Google AI Studio and Gemini API](https://ai.google.dev/gemini-api/docs/available-regions) | A shorter list; Russia is not on it |
 
 So one Google account can open the Gemini app but be refused by AI Studio, depending on where the person is. The United States, the United Kingdom, France and Japan, where the Gemini tier's cities are, were on both lists at our check. Plan prices, age rules and which features are offered where are on Google's own pages, and they change; read them before you pay for anything.
 

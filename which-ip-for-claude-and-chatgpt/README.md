@@ -6,7 +6,7 @@ Use one stable IP per person, in a country where the service is officially offer
 
 ## First: the rules are not only about your IP
 
-**Claude.** Anthropic's Supported Regions Policy lists the countries where Claude.ai, Claude Code and its API are offered. Mainland China, Hong Kong, Macau and Russia are not on it. As we read it, the policy covers people physically located in an unsupported region, and also companies incorporated, headquartered or majority-controlled there. Sign-up also requires a phone number from a supported location; VoIP, Google Voice and app-generated numbers are refused. A proxy changes none of this.
+**Claude.** Anthropic's Supported Regions Policy lists the countries where Claude.ai, Claude Code and its API are offered. As we read it, the policy covers people physically located in an unsupported region, and also companies incorporated, headquartered or majority-controlled there. Sign-up also requires a phone number from a supported location; VoIP, Google Voice and app-generated numbers are refused. A proxy changes none of this.
 
 **ChatGPT.** OpenAI offers ChatGPT only in the countries on its supported list and warns that access from outside the list may lead to a blocked or suspended account. The API answers an unsupported location with a 403 "Country, region, or territory not supported" error.
 

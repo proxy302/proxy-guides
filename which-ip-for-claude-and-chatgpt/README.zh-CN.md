@@ -6,7 +6,7 @@
 
 ## 先说清楚：规则不只看 IP
 
-**Claude。** Anthropic 的《支持地区政策》列出了 Claude.ai、Claude Code 和 API 提供服务的国家。中国大陆、香港、澳门和俄罗斯不在其中。按我们的理解，该政策针对人实际所在的位置，也涵盖在不受支持地区注册、总部设在那里或由那里控股的公司。注册还需要一个来自受支持地区的手机号；VoIP、Google Voice 和 App 生成的号码会被拒绝。代理改变不了这些。
+**Claude。** Anthropic 的《支持地区政策》列出了 Claude.ai、Claude Code 和 API 提供服务的国家。按我们的理解，该政策针对人实际所在的位置，也涵盖在不受支持地区注册、总部设在那里或由那里控股的公司。注册还需要一个来自受支持地区的手机号；VoIP、Google Voice 和 App 生成的号码会被拒绝。代理改变不了这些。
 
 **ChatGPT。** OpenAI 只在其支持列表上的国家提供 ChatGPT，并提示在列表之外访问可能导致账号被封禁或暂停。API 对不受支持的位置会返回 403「Country, region, or territory not supported」。
 

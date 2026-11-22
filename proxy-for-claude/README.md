@@ -4,7 +4,7 @@ Use one stable, fixed IP per person, in a country where Anthropic officially off
 
 ## Read the policy before buying anything
 
-Anthropic's Supported Regions Policy lists the countries and regions where Claude.ai and its other products are available; anything not listed is unsupported. At our check, mainland China, Hong Kong, Macau and Russia were not on it. The policy is about where a person is physically located, and it also covers companies incorporated, headquartered or majority-controlled in an unsupported region. A proxy changes none of that, and it does not change sign-up or payment requirements either.
+Anthropic's Supported Regions Policy lists the countries and regions where Claude.ai and its other products are available; anything not listed is unsupported. The policy is about where a person is physically located, and it also covers companies incorporated, headquartered or majority-controlled in an unsupported region. A proxy changes none of that, and it does not change sign-up or payment requirements either.
 
 What a fixed IP is for:
 

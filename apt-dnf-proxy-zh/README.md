@@ -85,7 +85,7 @@ curl -sS -x http://USER:PASS@HOST:PORT https://deb.debian.org/debian/ -o /dev/nu
 
 **Docker 构建时 `apt-get` 走不了代理怎么办？** 容器里的 apt 不读宿主机的配置，要在构建参数或 Dockerfile 里另配，见 [Docker 代理](../docker-proxy-zh/README.md)。
 
-**服务器在国内，下载海外软件源很慢，用代理会快吗？** 不一定。先用上面的 curl 命令分别测直连和走代理的耗时，再决定；慢在哪一段的排查方法见 [代理 IP 很慢怎么查](../proxy-slow-diagnose-zh/README.md)。
+**服务器下载远处的软件源很慢，用代理会快吗？** 不一定。先用上面的 curl 命令分别测直连和走代理的耗时，再决定；慢在哪一段的排查方法见 [代理 IP 很慢怎么查](../proxy-slow-diagnose-zh/README.md)。
 
 **动态 IP 还是静态 IP？** 只是下载软件包，按流量计费的动态住宅就够（1.5 美元/GB 起）。如果软件源或防火墙按来源 IP 放行，用静态 IP。
 
