@@ -73,6 +73,13 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [What proxy should I use for Google Ads accounts?](proxy-for-google-ads-accounts/README.md) | Use a manager account for many accounts; add one static ISP IP per person only where their connection is unstable or shared. New accounts after a suspension break Google's policy. |
 | [How do I set a proxy on an iPhone (Wi-Fi HTTP proxy) and check it works?](iphone-proxy-settings/README.md) | Settings → Wi-Fi → (i) → Configure Proxy → Manual, turn on Authentication, then check ipinfo.io in Safari; HTTP only, one Wi-Fi network, not mobile data. |
 | [Which proxy should I use for price monitoring?](proxy-for-price-monitoring/README.md) | Rotating residential per GB for sites that price by country or refuse servers; datacenter when the target treats all visitors alike or allowlists one IP. Estimate GB from page weight first. |
+| [How do I check an IP before I use it for ChatGPT, Claude or Grok?](check-ip-before-ai-subscription/README.md) | Through the proxy, confirm the exit country is one the service supports and where you are, that IPinfo and IP2Location both call it ISP (dual ISP), that registry, database and operator countries match (native), that the address stays the same, and that the service's API answers with a login error rather than a region error. |
+| [Which static IP should a Walmart Marketplace seller use in the US?](walmart-seller-static-ip-us/README.md) | One US static ISP IP per Walmart Seller Center account, kept for the account's life in one browser profile, with each team member signing in as their own Seller Center user; rotating residential only for logged-out checks. |
+| [Which static IP should a Mercado Livre seller in Brazil use?](mercado-livre-seller-static-ip-brazil/README.md) | One Brazilian static ISP IP per Mercado Livre seller account, used only in that account's browser profile and kept long-term; Brazilian rotating residential for logged-out price and search checks. |
+| [How do I use an authenticated proxy with PowerShell Invoke-WebRequest?](powershell-invoke-webrequest-proxy/README.md) | Pass `-Proxy 'http://HOST:PORT'` with a PSCredential in `-ProxyCredential` (works in 5.1 and 7); PowerShell 7 also reads HTTPS_PROXY/HTTP_PROXY/ALL_PROXY/NO_PROXY with credentials in the URL and is the only one that can use SOCKS5. |
+| [How do I send a Kubernetes pod's outbound traffic through a proxy?](kubernetes-pod-egress-proxy/README.md) | Set HTTPS_PROXY/HTTP_PROXY/NO_PROXY (and lowercase copies) on the container, building the URL from a Secret with $(VAR) references, keep cluster names and the API server IP in NO_PROXY, and configure containerd separately for image pulls. |
+| [How do I run the AWS CLI, gcloud and Azure CLI through a proxy with a username and password?](cloud-cli-proxy-aws-gcloud-az/README.md) | Export HTTPS_PROXY=http://USER:PASS@HOST:PORT for aws and az; for gcloud use the same variables or the proxy/* properties with CLOUDSDK_PROXY_USERNAME/PASSWORD; on cloud VMs add 169.254.169.254 to NO_PROXY. |
+| [How do I use a proxy with a username and password in Dart and Flutter?](dart-flutter-httpclient-proxy/README.md) | Set `findProxy` to return `PROXY USER:PASS@HOST:PORT` (or register Basic credentials with addProxyCredentials for the same host and port) because HTTPS tunnels never consult authenticateProxy; dart:io has no SOCKS support. |
 
 *Black Friday, 24 November to 1 December 2026 (UTC+8): from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
 
@@ -123,6 +130,13 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 - [Mac 怎么设置系统代理并验证出口](macos-proxy-settings-zh/README.md)（只有中文）
 - [安卓手机 Wi-Fi 代理怎么设、怎么验证](android-proxy-settings-zh/README.md)（只有中文）
 - [Windows 11 怎么设置代理并验证出口](windows-proxy-settings-zh/README.md)（只有中文）
+- [在日本经营乐天市场（Rakuten Ichiba）店铺，后台登录用什么 IP？](rakuten-japan-static-ip-zh/README.md)（只有中文）
+- [Firefox 怎么单独设置带账号密码的代理？](firefox-proxy-settings-zh/README.md)（只有中文）
+- [conda 怎么走带账号密码的代理？](conda-proxy-zh/README.md)（只有中文）
+- [cargo 和 rustup 怎么走带账号密码的代理？](cargo-rustup-proxy-zh/README.md)（只有中文）
+- [WSL2 里怎么走带账号密码的代理？](wsl2-proxy-zh/README.md)（只有中文）
+- [Ollama 拉模型怎么走带账号密码的代理？](ollama-pull-proxy-zh/README.md)（只有中文）
+- [uv 装包、装 Python 怎么走带账号密码的代理？](uv-proxy-zh/README.md)（只有中文）
 
 官网：[https://proxy302.com](https://proxy302.com)。价格以[价格页](https://proxy302.com/zh/pricing/)为准。
 
