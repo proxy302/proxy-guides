@@ -74,4 +74,6 @@ Expect several distinct addresses and network names of consumer internet provide
 
 Proxy302 publishes its prices. Rotating residential Budget: $1.50/GB, or $1.42, $1.35, $1.20 and $1.124 per GB at 50, 100, 300 and 500 GB prepaid. Premium: $5/GB, down to $4.25/GB at 300 GB. Prepaid traffic does not expire. Rotating datacenter is $0.40/GB; static ISP IPs run from $0.50 for one day to $23.97 for 90 days, the same in every country. See [pricing](https://proxy302.com/pricing/) and [proxy302.com](https://proxy302.com).
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 *Facts checked 17 November 2026.*

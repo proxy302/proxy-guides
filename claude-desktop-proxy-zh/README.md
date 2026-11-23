@@ -94,4 +94,6 @@ Anthropic 面向企业第三方部署版的 Network proxy 文档写明：
 
 Proxy302 出售静态 ISP IP，下单时选 HTTP 协议即可用于 Claude Code，各国同价：1 天 US$0.50，30 天 US$7.99，90 天 US$23.97，可按 IP 开自动续费。30 天及以上的静态 IP 为买家独享。价格见 [proxy302.com/pricing](https://proxy302.com/pricing/)，中文站 [proxy302.com/zh](https://proxy302.com/zh/)。
 
+*黑五（北京时间 2026 年 11 月 24 日至 12 月 1 日）：静态 ISP 60 天 US$14.00、90 天 US$18.00（1 到 30 天不变）。本页其他地方写的是平时价，当天价格以[定价页](https://proxy302.com/zh/pricing/)为准。*<!-- bf2026 -->
+
 *事实核对于 2026 年 11 月 17 日。*

@@ -63,6 +63,8 @@ For a SOCKS5 proxy you need an app that accepts SOCKS5 with a username and passw
 | Claude, ChatGPT or Gemini for one person | AI subscription ISP, 30 days | Claude tier 15 PTC, GPT/Grok 10 PTC, Gemini 8 PTC; first IP half price (1 PTC = US$1) |
 | Browsing pages from another country without signing in | Rotating residential | $1.50/GB |
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 For AI services, use a country where the service is officially offered and where you actually are. An IP does not make use from an unsupported region permitted.
 
 ## FAQ

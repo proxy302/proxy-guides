@@ -82,4 +82,6 @@ Other languages: [Go](../go-http-proxy/README.md), [Node.js](../nodejs-proxy/REA
 
 Proxy302 sells static datacenter IPs ($0.25 for a day, $3.99 for 30 days) and static residential (ISP) IPs ($0.50 for a day, $7.99 for 30 days, $15.98 for 60 days, $23.97 for 90 days). A static residential IP is HTTP or SOCKS5, chosen at purchase. There is no free trial; a one-day IP is the cheapest test. See [pricing](https://proxy302.com/pricing/).
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 *Facts checked 20 November 2026.*

@@ -74,6 +74,8 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [How do I set a proxy on an iPhone (Wi-Fi HTTP proxy) and check it works?](iphone-proxy-settings/README.md) | Settings → Wi-Fi → (i) → Configure Proxy → Manual, turn on Authentication, then check ipinfo.io in Safari; HTTP only, one Wi-Fi network, not mobile data. |
 | [Which proxy should I use for price monitoring?](proxy-for-price-monitoring/README.md) | Rotating residential per GB for sites that price by country or refuse servers; datacenter when the target treats all visitors alike or allowlists one IP. Estimate GB from page weight first. |
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 ## 中文说明
 
 这里是 Proxy302 官方维护的代理 IP 使用指南，面向要买、要用代理 IP 的人：动态住宅、静态住宅（ISP）和数据中心。我们是服务商，不是中立评测方；文中只在相关处提到 Proxy302。每篇指南第一段直接回答问题，后面是步骤、表格和常见问题，前五篇有英文和中文两个文件，之后的按提问的语言只写一种。

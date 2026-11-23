@@ -29,6 +29,8 @@ Proxy302 sells static ISP two ways:
 - **Per-IP lease.** One fixed IP for the whole term. At last check on [proxy302.com/pricing/](https://proxy302.com/pricing/): US$0.50 for 1 day, US$7.99 for 30 days, US$15.98 for 60 days, US$23.97 for 90 days.
 - **Per GB, no lease.** The console generates a Fixed ISP exit for free and charges US$3.50 per GB used. You choose the country only, and the same IP is not promised over time.
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 At those prices the break-even is roughly 2.3 GB in 30 days. Below that, per GB costs less; above that, or when you need one address for the whole term, lease it. If the account must keep one address, lease.
 
 ## 5. Choose HTTP or SOCKS5 before you buy

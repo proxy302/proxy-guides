@@ -68,4 +68,6 @@ TikTok's Terms of Service (US version, last updated 15 July 2026 when we checked
 
 Proxy302 sells static ISP IPs in 1 to 90 day terms ($0.50 to $23.97), HTTP or SOCKS5 chosen at purchase, at one price in every country, plus rotating residential from $1.50/GB. See [pricing](https://proxy302.com/pricing/) and [proxy302.com](https://proxy302.com). For step-by-step setup, read [static residential IP for TikTok](../static-residential-ip-for-tiktok/README.md).
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 *Facts checked 17 November 2026.*

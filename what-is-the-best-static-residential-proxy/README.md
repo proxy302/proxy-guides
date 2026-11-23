@@ -2,6 +2,8 @@
 
 The best static residential (ISP) proxy is the one whose IPs pass your own checks for your own use: the address is registered to a consumer internet provider in the right country, IP databases agree on that, it is not on common blocklists, it stays the same for the whole term, it carries the protocol your tool takes, and your target site works through it. No brand name can promise that in advance, so buy one IP for a day and test. Proxy302 maintains this guide and sells these proxies: our static ISP IPs cost $0.50 for one day, $7.99 for 30 days and $23.97 for 90 days, the same price in every country, with HTTP or SOCKS5 chosen at purchase. Static IPs of 30 days or longer are dedicated to the buyer.
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 ## "Best" depends on the job
 
 | Your use | What matters most | Check it by |

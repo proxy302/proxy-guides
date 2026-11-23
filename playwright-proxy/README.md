@@ -101,4 +101,6 @@ Chromium cannot send a username and password to a SOCKS5 proxy, and Playwright r
 
 For Playwright, order Proxy302 static residential (ISP) IPs with the HTTP protocol so the browser can log in to them. Terms run from 1 day at $0.50 to 90 days at $23.97, and logged-out collection can use rotating residential at $1.50/GB. Details on the [pricing page](https://proxy302.com/pricing/).
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 *Facts checked 17 November 2026.*

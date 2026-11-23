@@ -89,4 +89,6 @@ For a SOCKS5 proxy with a password, change the forwarder URL to `socks5://USER:P
 
 Any Proxy302 proxy can sit behind the forwarder above: a static residential (ISP) IP (one day for $0.50, 60 days for $15.98) or rotating residential traffic on the $1.50/GB budget line or the $5/GB premium line. Prices are on the [pricing page](https://proxy302.com/pricing/).
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 *Facts checked 17 November 2026.*

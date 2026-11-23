@@ -18,6 +18,8 @@ A datacenter IP is registered to a hosting or cloud company. A residential IP is
 | Rotating residential, premium line | Traffic | $5/GB; prepaid 50 GB $4.74/GB, 100 GB $4.50/GB, 300 GB $4.25/GB |
 | Static ISP (residential) | IP and term | $0.50 for 1 day, $7.99 for 30 days, $23.97 for 90 days |
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 Prepaid residential traffic does not expire.
 
 **Worked example, 100 GB in a month:** rotating datacenter $40; budget residential prepaid $135, or $150 pay-as-you-go; premium residential prepaid $450. **One fixed IP for 30 days:** static datacenter $3.99, static ISP $7.99.

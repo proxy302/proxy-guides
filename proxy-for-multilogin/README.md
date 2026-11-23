@@ -44,6 +44,8 @@ You can also test outside the browser: `curl -x socks5h://USER:PASS@HOST:PORT ht
 | 60 days | $15.98 | Fewer renewals |
 | 90 days | $23.97 | Longer runs |
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 ## FAQ
 
 **Does Multilogin include proxies?** That depends on your plan; check Multilogin directly. Proxy302 sells its own proxies separately.

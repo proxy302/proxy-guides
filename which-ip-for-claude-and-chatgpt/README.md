@@ -29,6 +29,8 @@ So the honest question is not "which IP unlocks it" but "which IP gives my legit
 
 At last check on the Proxy302 product pages: the Claude ISP is described as a dedicated native ISP IP at 15 PTC per 30 days (1 PTC = US$1), and the GPT / Grok ISP at 10 PTC per 30 days; the first 30-day IP in each plan is half price per account. A regular static ISP IP is US$7.99 for 30 days on [proxy302.com/pricing/](https://proxy302.com/pricing/). Proxy302 states it cannot guarantee an account will never be banned.
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 ## Step by step
 
 1. **Pick a country that is on the official list and where you actually work from.** Do not hop between countries.

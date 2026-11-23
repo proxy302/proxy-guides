@@ -2,6 +2,8 @@
 
 Use one stable IP per person, in a country where Google offers Gemini and where you actually are, and use it from one place for every sign-in. If you also use Google AI Studio or the Gemini API, the country must be on that shorter list as well. Proxy302 maintains this guide and sells these proxies. Proxy302's Gemini tier is a dedicated native static ISP IP designed for keeping one Google account on one IP long-term: one person per IP; registration, geolocation and operator country all match; renewing normally keeps the same IP; 8 PTC (1 PTC = US$1) per 30 days, first IP half price, in several US cities, Paris, Chiba, Osaka and London. An IP does not make use from an unsupported region permitted, does not change Google's terms or its availability lists, and cannot guarantee that an account is never restricted.
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged); from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 ## Google keeps two lists: read both
 
 | Product | Google's page | What we read on 21 November 2026 |

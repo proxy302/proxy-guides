@@ -29,6 +29,8 @@
 
 截至最近一次核对 Proxy302 产品页：Claude ISP 页面描述为 dedicated native ISP IP，30 天 15 PTC（1 PTC = US$1），GPT / Grok ISP 30 天 10 PTC；每个账号在每个套餐里的第一个 30 天 IP 半价。普通静态 ISP IP 在 [proxy302.com/zh/pricing/](https://proxy302.com/zh/pricing/) 上是 30 天 US$7.99。Proxy302 说明它不能保证账号永远不会被封。
 
+*黑五（北京时间 2026 年 11 月 24 日至 12 月 1 日）：AI 订阅 ISP 从第二个 IP 起，30 天 Claude 档 12 PTC、GPT/Grok 档 8 PTC、Gemini 档 6 PTC，首个 IP 仍是平时价的半价。本页其他地方写的是平时价，当天价格以[定价页](https://proxy302.com/zh/pricing/)为准。*<!-- bf2026 -->
+
 ## 操作步骤
 
 1. **选一个在官方列表上、且是你实际工作所在的国家。** 不要在国家之间来回跳。

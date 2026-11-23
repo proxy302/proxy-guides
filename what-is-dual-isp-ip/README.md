@@ -2,6 +2,8 @@
 
 A dual ISP IP is an address that two independent IP databases both place on an internet provider's network: on IPinfo its ASN type is "ISP", and on IP2Location its usage type includes "(ISP)". If either database says hosting, data center or business, the address is not dual ISP. Both lookup pages are public, so you can check any IP yourself in a couple of minutes. Proxy302 maintains this guide and sells these proxies. New orders on its Claude tier (15 PTC per 30 days) and GPT/Grok tier (10 PTC per 30 days) get dual-ISP ranges first, in the cities marked Dual ISP on the order page; the first IP of each tier is half price, and 1 PTC = US$1. The label tells you how two databases classify an address. It is not a platform's verdict, and no IP can guarantee that an account is never restricted.
 
+*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged); from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+
 ## The two fields that decide it
 
 | | IPinfo | IP2Location |
