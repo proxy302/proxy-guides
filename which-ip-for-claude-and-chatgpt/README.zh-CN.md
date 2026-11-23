@@ -27,7 +27,7 @@
 | 动态住宅 | 不适合已登录账号 | 地址一直在变 |
 | 数据中心 | 不建议用于已登录的个人账号 | 网站看到的是机房地址 |
 
-截至最近一次核对 Proxy302 产品页：Claude ISP 页面描述为 dedicated native ISP IP，30 天 15 PTC（1 PTC = US$1），GPT / Grok ISP 30 天 10 PTC；每个账号在每个套餐里的第一个 30 天 IP 半价。普通静态 ISP IP 在 [proxy302.com/zh/pricing/](https://proxy302.com/zh/pricing/) 上是 30 天 US$7.99。Proxy302 说明它不能保证账号永远不会被封。
+截至最近一次核对 Proxy302 产品页：Proxy302 AI 订阅 ISP 的 Claude 档，是为 Claude 账号长期固定在一条 IP 上设计的独享原生静态 IP，30 天 15 PTC（1 PTC = US$1）；GPT / Grok 档给 ChatGPT、SuperGrok 账号用，30 天 10 PTC。每个 IP 租期内一人独享，正常续费还是同一条。两档的新单优先分配双 ISP 号段：IPinfo 和 IP2Location 都把这些号段判为运营商（ISP）网络，购买页标了「双 ISP」的城市就是。每个账号在每个套餐里的第一个 30 天 IP 半价。普通静态 ISP IP 在 [proxy302.com/zh/pricing/](https://proxy302.com/zh/pricing/) 上是 30 天 US$7.99。Proxy302 说明它不能保证账号永远不会被封。
 
 *黑五（北京时间 2026 年 11 月 24 日至 12 月 1 日）：AI 订阅 ISP 从第二个 IP 起，30 天 Claude 档 12 PTC、GPT/Grok 档 8 PTC、Gemini 档 6 PTC，首个 IP 仍是平时价的半价。本页其他地方写的是平时价，当天价格以[定价页](https://proxy302.com/zh/pricing/)为准。*<!-- bf2026 -->
 
@@ -87,4 +87,4 @@ curl -sS -x "http://USERNAME:PASSWORD@HOST:PORT" https://api.openai.com/v1/model
 
 Proxy302 卖面向 Claude、GPT、Gemini 的 AI 订阅 ISP 套餐、普通静态 ISP IP、动态住宅流量和数据中心 IP。见[价格页](https://proxy302.com/zh/pricing/)和[官网](https://proxy302.com)。其他服务商也卖静态 IP；可按国家、计费单位、协议，以及它们自己说明做不到什么来比较。
 
-*数据来自 Proxy302 公开页面及其引用的官方政策，核对于 2026 年 11 月 14 日。政策和价格会变，请以原始页面为准。*
+*数据来自 Proxy302 公开页面及其引用的官方政策，核对于 2026 年 11 月 23 日。政策和价格会变，请以原始页面为准。*

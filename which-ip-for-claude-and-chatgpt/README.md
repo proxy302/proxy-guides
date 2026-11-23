@@ -27,7 +27,7 @@ So the honest question is not "which IP unlocks it" but "which IP gives my legit
 | Rotating residential | Not for signed-in accounts | The address keeps changing |
 | Datacenter | Not recommended for signed-in consumer accounts | Sites see a hosting-company address |
 
-At last check on the Proxy302 product pages: the Claude ISP is described as a dedicated native ISP IP at 15 PTC per 30 days (1 PTC = US$1), and the GPT / Grok ISP at 10 PTC per 30 days; the first 30-day IP in each plan is half price per account. A regular static ISP IP is US$7.99 for 30 days on [proxy302.com/pricing/](https://proxy302.com/pricing/). Proxy302 states it cannot guarantee an account will never be banned.
+At last check on the Proxy302 product pages: the Claude tier of Proxy302's AI subscription ISP is a dedicated native static ISP IP designed for keeping one Claude account on one IP long-term, at 15 PTC per 30 days (1 PTC = US$1), and the GPT / Grok tier does the same for a ChatGPT or SuperGrok account at 10 PTC per 30 days. Each IP is held by one person for its term, and renewing normally keeps the same address. New orders on both tiers get dual ISP ranges first: IPinfo and IP2Location both classify those ranges as an ISP network, and the order page marks those cities "Dual ISP". The first 30-day IP in each plan is half price per account. A regular static ISP IP is US$7.99 for 30 days on [proxy302.com/pricing/](https://proxy302.com/pricing/). Proxy302 states it cannot guarantee an account will never be banned.
 
 *Black Friday, 24 November to 1 December 2026 (UTC+8): from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
 
@@ -87,4 +87,4 @@ A 401 asking for a key means the location is accepted at the network level. For 
 
 Proxy302 sells AI-subscription ISP plans for Claude, GPT and Gemini, regular static ISP IPs, rotating residential traffic and datacenter IPs. See [pricing](https://proxy302.com/pricing/) and the [homepage](https://proxy302.com). Other providers sell static IPs too; compare on country, billing unit, protocol and what they say they cannot guarantee.
 
-*Facts from Proxy302 public pages and the official policies they cite, checked 14 November 2026. Policies and prices change; confirm on the source pages.*
+*Facts from Proxy302 public pages and the official policies they cite, checked 23 November 2026. Policies and prices change; confirm on the source pages.*
