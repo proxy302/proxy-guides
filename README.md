@@ -80,6 +80,13 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [How do I send a Kubernetes pod's outbound traffic through a proxy?](kubernetes-pod-egress-proxy/README.md) | Set HTTPS_PROXY/HTTP_PROXY/NO_PROXY (and lowercase copies) on the container, building the URL from a Secret with $(VAR) references, keep cluster names and the API server IP in NO_PROXY, and configure containerd separately for image pulls. |
 | [How do I run the AWS CLI, gcloud and Azure CLI through a proxy with a username and password?](cloud-cli-proxy-aws-gcloud-az/README.md) | Export HTTPS_PROXY=http://USER:PASS@HOST:PORT for aws and az; for gcloud use the same variables or the proxy/* properties with CLOUDSDK_PROXY_USERNAME/PASSWORD; on cloud VMs add 169.254.169.254 to NO_PROXY. |
 | [How do I use a proxy with a username and password in Dart and Flutter?](dart-flutter-httpclient-proxy/README.md) | Set `findProxy` to return `PROXY USER:PASS@HOST:PORT` (or register Basic credentials with addProxyCredentials for the same host and port) because HTTPS tunnels never consult authenticateProxy; dart:io has no SOCKS support. |
+| [How do I re-check my ChatGPT, Claude or Grok IP after each renewal?](recheck-ai-subscription-ip-after-renewal/README.md) | Within a day of each renewal, rerun the purchase-day checks (same exit IP and country, IPinfo and IP2Location both ISP, native, API answers 401 not a region error), compare them with your first record, and resolve any change before the next sign-in. |
+| [Which static IP should an eBay UK (ebay.co.uk) seller use?](ebay-uk-seller-static-ip/README.md) | One UK static ISP IP per ebay.co.uk seller account, kept for the account's life in one browser profile, with staff added through eBay's Team access instead of sharing the owner's password. |
+| [How do I use a proxy with a username and password in libcurl (C or C++)?](libcurl-proxy-c-cpp/README.md) | Set CURLOPT_PROXY to http://HOST:PORT (or socks5h://HOST:PORT) and pass the credentials with CURLOPT_PROXYUSERNAME and CURLOPT_PROXYPASSWORD, then read CURLINFO_HTTP_CONNECTCODE on failure, where 407 means wrong credentials. |
+| [How do I set a SOCKS5 or HTTP proxy with a username and password in Telegram Desktop?](telegram-desktop-proxy/README.md) | Settings, Advanced, Connection type, Use custom proxy, Add proxy, choose SOCKS5 or HTTP to match the IP, fill in Hostname, Port, Username and Password, and save. |
+| [How do I run the Android Emulator through a proxy with a username and password?](android-emulator-proxy/README.md) | Start the emulator with -http-proxy http://USER:PASS@HOST:PORT or set it in Extended controls, Settings, Proxy and restart; it carries all TCP traffic through an HTTP proxy, with no SOCKS5, UDP or bypass list. |
+| [How do I make an Electron app use a proxy with a username and password?](electron-app-proxy-auth/README.md) | Call session.setProxy({ proxyRules: 'http://HOST:PORT' }) and answer the app 'login' event for authInfo.isProxy with callback(USER, PASS), using an HTTP proxy because Chromium has no SOCKS5 username and password support. |
+| [How do I connect to a WebSocket through an authenticated proxy in Python?](python-websocket-proxy/README.md) | In websockets 15+ pass proxy="http://USER:PASS@HOST:PORT" to connect(); in aiohttp pass proxy= and proxy_auth=BasicAuth to ws_connect(), and remember aiohttp's environment lookup uses wss_proxy, not HTTPS_PROXY, for wss:// URLs. |
 
 *Black Friday, 24 November to 1 December 2026 (UTC+8): from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
 
@@ -137,6 +144,13 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 - [WSL2 里怎么走带账号密码的代理？](wsl2-proxy-zh/README.md)（只有中文）
 - [Ollama 拉模型怎么走带账号密码的代理？](ollama-pull-proxy-zh/README.md)（只有中文）
 - [uv 装包、装 Python 怎么走带账号密码的代理？](uv-proxy-zh/README.md)（只有中文）
+- [在波兰经营 Allegro 店铺，卖家后台用什么 IP 登录？](allegro-poland-seller-ip-zh/README.md)（只有中文）
+- [Kaufland 德国站卖家，Seller Portal 用什么 IP 登录？](kaufland-germany-seller-ip-zh/README.md)（只有中文）
+- [Hugging Face 下载模型（hf download、huggingface_hub）怎么走带账号密码的代理？](huggingface-download-proxy-zh/README.md)（只有中文）
+- [gem install、bundle install 怎么走带账号密码的代理？](rubygems-bundler-proxy-zh/README.md)（只有中文）
+- [Composer 怎么走带账号密码的代理？只设 http_proxy 为什么不生效](composer-proxy-zh/README.md)（只有中文）
+- [aria2 下载怎么走带账号密码的代理？](aria2-proxy-zh/README.md)（只有中文）
+- [playwright install 下载浏览器怎么走带账号密码的代理？](playwright-install-proxy-zh/README.md)（只有中文）
 
 官网：[https://proxy302.com](https://proxy302.com)。价格以[价格页](https://proxy302.com/zh/pricing/)为准。
 
