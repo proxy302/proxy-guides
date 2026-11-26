@@ -60,6 +60,6 @@
 
 ## Proxy302 在哪里
 
-Proxy302 卖 AI 订阅 ISP：Claude 档 30 天 15 PTC，适合 Claude Pro、Max；GPT/Grok 档 10 PTC；Gemini 档 8 PTC；每档第一个 IP 半价。也卖普通静态 ISP，30 天 US$7.99，1 天 US$0.50 可以先测连接。这些只适合身在服务支持地区的人，给自己的账号配一个固定出口。价格见[价格页](https://proxy302.com/pricing/)，中文官网 [proxy302.com/zh](https://proxy302.com/zh/)。相关阅读：[Claude 用什么 IP](../which-ip-for-claude-and-chatgpt/README.zh-CN.md)。
+Proxy302 AI 订阅 ISP 的 Claude 档，是为 Claude 账号长期固定在一条 IP 上设计的独享原生静态 IP，适合 Claude Pro、Max，30 天 15 PTC（1 PTC = US$1）。每个 IP 租期内一人独享，正常续费还是同一条。新单优先分配双 ISP 号段：IPinfo 和 IP2Location 都把这些号段判为运营商（ISP）网络，购买页标了「双 ISP」的城市就是。另有 GPT/Grok 档 10 PTC、Gemini 档 8 PTC；每档第一个 IP 半价。也卖普通静态 ISP，30 天 US$7.99，1 天 US$0.50 可以先测连接。这些只适合身在服务支持地区的人，给自己的账号配一个固定出口。价格见[价格页](https://proxy302.com/pricing/)，中文官网 [proxy302.com/zh](https://proxy302.com/zh/)。相关阅读：[Claude 用什么 IP](../which-ip-for-claude-and-chatgpt/README.zh-CN.md)。
 
-*事实核对于 2026 年 11 月 17 日。*
+*事实核对于 2026 年 11 月 26 日。*
