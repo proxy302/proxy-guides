@@ -87,6 +87,14 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [How do I run the Android Emulator through a proxy with a username and password?](android-emulator-proxy/README.md) | Start the emulator with -http-proxy http://USER:PASS@HOST:PORT or set it in Extended controls, Settings, Proxy and restart; it carries all TCP traffic through an HTTP proxy, with no SOCKS5, UDP or bypass list. |
 | [How do I make an Electron app use a proxy with a username and password?](electron-app-proxy-auth/README.md) | Call session.setProxy({ proxyRules: 'http://HOST:PORT' }) and answer the app 'login' event for authInfo.isProxy with callback(USER, PASS), using an HTTP proxy because Chromium has no SOCKS5 username and password support. |
 | [How do I connect to a WebSocket through an authenticated proxy in Python?](python-websocket-proxy/README.md) | In websockets 15+ pass proxy="http://USER:PASS@HOST:PORT" to connect(); in aiohttp pass proxy= and proxy_auth=BasicAuth to ws_connect(), and remember aiohttp's environment lookup uses wss_proxy, not HTTPS_PROXY, for wss:// URLs. |
+| [Which static IP should a bol.com seller use in the Netherlands or Belgium?](bol-com-seller-static-ip-netherlands/README.md) | One static ISP IP per bol.com seller account, in the country the business actually runs from (NL or BE), used only in that account's browser profile, with colleagues added under Settings, "Users and roles". |
+| [How do I use a proxy with a username and password in Swift URLSession?](swift-urlsession-proxy/README.md) | On iOS 17 / macOS 14+, build a Network-framework ProxyConfiguration (httpCONNECTProxy or socksv5Proxy), call applyCredential(username:password:) and set URLSessionConfiguration.proxyConfigurations; credentials in connectionProxyDictionary do not work. |
+| [How do I use a proxy with a username and password in OkHttp (Kotlin, Java, Android)?](okhttp-proxy-auth/README.md) | Set .proxy(Proxy(Proxy.Type.HTTP, InetSocketAddress.createUnresolved(HOST, PORT))) and a .proxyAuthenticator that adds Proxy-Authorization from Credentials.basic, never an interceptor, because the HTTPS CONNECT skips interceptors. |
+| [How do I make NuGet and dotnet restore go through a proxy with a username and password?](nuget-dotnet-restore-proxy/README.md) | On Linux, macOS and CI set lowercase http_proxy=http://USER:PASS@HOST:PORT (NuGet uses it for HTTPS feeds too); on Windows nuget config -set http_proxy, http_proxy.user and http_proxy.password, which are only read on Windows. |
+| [How do I chain mitmproxy or Burp Suite to an upstream proxy with a username and password?](mitmproxy-burp-upstream-proxy/README.md) | mitmproxy --mode upstream:http://HOST:PORT --set upstream_auth=USER:PASS; in Burp, Settings, Network, Connections, an upstream rule for * with Basic auth, or the SOCKS proxy section for a SOCKS5 IP. |
+| [How do I run a GitHub Actions self-hosted runner behind a proxy with a username and password?](github-actions-self-hosted-runner-proxy/README.md) | Put https_proxy, http_proxy and no_proxy in a .env file in the runner folder, restart the runner, and add the proxy's static address to GitHub's IP allow list if you use one. |
+| [How do I run Squid as a local forwarder to a proxy that needs a username and password?](squid-local-forwarder-auth-proxy/README.md) | Add cache_peer HOST parent PORT 0 no-query no-digest default login=USER:PASS and never_direct allow all, then point programs at Squid on 127.0.0.1:3128 with no credentials; the upstream must be HTTP. |
+| [How do I set a proxy with a username and password in Jenkins?](jenkins-proxy-settings/README.md) | Manage Jenkins, System, HTTP Proxy Configuration (plugin manager Advanced before 2.435) covers update center, plugins and tool installers; build steps need https_proxy/http_proxy, best injected with withCredentials. |
 
 *Black Friday, 24 November to 4 December 2026 (UTC+8): from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
 
@@ -151,6 +159,13 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 - [Composer 怎么走带账号密码的代理？只设 http_proxy 为什么不生效](composer-proxy-zh/README.md)（只有中文）
 - [aria2 下载怎么走带账号密码的代理？](aria2-proxy-zh/README.md)（只有中文）
 - [playwright install 下载浏览器怎么走带账号密码的代理？](playwright-install-proxy-zh/README.md)（只有中文）
+- [团队几个人各用自己的 Claude、ChatGPT 账号，怎么给每人配一个双 ISP IP？](team-dual-isp-ip-per-member-zh/README.md)（只有中文）
+- [做 Zalando 合作伙伴（Partner Program），zDirect 后台用什么 IP 登录？](zalando-partner-germany-ip-zh/README.md)（只有中文）
+- [在 eMAG 罗马尼亚站开店，卖家后台登录和 API 对接分别用什么 IP？](emag-romania-seller-ip-zh/README.md)（只有中文）
+- [go mod download、go get 怎么走带账号密码的代理？GOPROXY 和 HTTPS_PROXY 不是一回事](go-mod-download-proxy-zh/README.md)（只有中文）
+- [Ansible 让远程主机走带账号密码的代理，怎么配？](ansible-proxy-zh/README.md)（只有中文）
+- [R 的 install.packages() 怎么走带账号密码的代理？](r-install-packages-proxy-zh/README.md)（只有中文）
+- [Windows 上 Scoop 怎么走带账号密码的代理？](scoop-proxy-zh/README.md)（只有中文）
 
 官网：[https://proxy302.com](https://proxy302.com)。价格以[价格页](https://proxy302.com/zh/pricing/)为准。
 
