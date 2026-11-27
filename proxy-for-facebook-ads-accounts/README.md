@@ -1,6 +1,6 @@
 # What is the best proxy for Facebook ads accounts?
 
-The best proxy for Facebook ads accounts is a static residential (ISP) IP used by one ad account owner and kept for as long as that account runs. A fixed address that stays in one country looks like an ordinary, steady connection; a rotating address makes the same login appear from somewhere new each time. Proxy302 maintains this guide and sells these proxies: static ISP IPs start at $0.50 for one day and $7.99 for 30 days per IP, the same in every country, and 30-day and longer IPs are dedicated to you. A proxy only supplies the network address. It does not make an account compliant with Meta's rules, and it cannot pass a verification step for you.
+The best proxy for Facebook ads accounts is a static residential (ISP) IP used by one person and kept for as long as that person runs the accounts. Ad accounts are reached through each person's own Facebook profile, so count IPs by person, not by ad account. A fixed address that stays in one country looks like an ordinary, steady connection; a rotating address makes the same login appear from somewhere new each time. Proxy302 maintains this guide and sells these proxies: static ISP IPs start at $0.50 for one day and $7.99 for 30 days per IP, the same in every country, and 30-day and longer IPs are dedicated to you. A proxy only supplies the network address. It does not make an account compliant with Meta's rules, and it cannot pass a verification step for you.
 
 ## Who this suits
 
@@ -16,16 +16,16 @@ Media buyers and agencies who manage several ad accounts, and marketers who work
 
 ## A sensible setup
 
-1. **One ad account, one IP.** Do not log two accounts in from the same address.
+1. **One person, one IP.** Nobody signs in to an ad account directly: each person signs in to their own Facebook profile, and the business portfolio gives that profile access to the ad accounts. Give each person who needs a fixed address their own IP, and do not sign two people's profiles in from the same address. More on roles and partner access: [facebook-ads-account-ip](https://github.com/proxy302/facebook-ads-account-ip).
 2. **Pick the country once.** Use the country where the account's business operates, and keep it.
-3. **Pair with a browser profile.** Create one profile per account in your browser or antidetect browser, and enter the IP's host, port, username and password. See [pairing an anti-detect browser with a residential or ISP IP](../antidetect-browser-with-residential-ip/README.md).
+3. **Pair with a browser profile.** Create one profile per person in your browser or antidetect browser, and enter the IP's host, port, username and password. See [pairing an anti-detect browser with a residential or ISP IP](../antidetect-browser-with-residential-ip/README.md).
 4. **Check the exit before signing in.** Run `curl -x http://USER:PASS@HOST:PORT https://ipinfo.io/json` (`socks5h://` for SOCKS5) and confirm country and org. Check it again from inside the profile with the browser's own proxy check.
 5. **Turn off anything underneath.** A VPN or another system-wide proxy running below the profile muddies the exit.
-6. **Keep the IP for the account's life.** Renew before the end date, or switch on auto-renew for that IP. An expired IP is released, and the account would then log in from a new address.
+6. **Keep the IP for as long as that person runs the accounts.** Renew before the end date, or switch on auto-renew for that IP. An expired IP is released, and the account would then log in from a new address.
 
 ## Budget example
 
-Five ad accounts on 30-day IPs is five IPs at $7.99, or $39.95 per month, with the order taking 1 to 100 IPs at once. Longer terms cost the same per 30 days: 60 days is $15.98 and 90 days is $23.97.
+Five people who each need a fixed address, on 30-day IPs, is five IPs at $7.99, or $39.95 per month, with the order taking 1 to 100 IPs at once. Longer terms cost the same per 30 days: 60 days is $15.98 and 90 days is $23.97.
 
 *Black Friday, 24 November to 4 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
 
