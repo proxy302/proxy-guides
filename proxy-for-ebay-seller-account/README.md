@@ -69,6 +69,6 @@ Answer with real details that match what you registered: identity, business and 
 
 Proxy302 sells static ISP IPs from 1 to 90 days ($0.50 to $23.97), HTTP or SOCKS5 chosen at purchase, the same price in every country, plus rotating residential traffic from $1.50/GB (prepaid 500 GB works out at $1.124/GB, and prepaid traffic does not expire). Setup in a browser profile: [AdsPower integration](https://proxy302.com/integrations/adspower/) or [antidetect browsers compared](https://proxy302.com/integrations/antidetect-browsers/). Prices: [proxy302.com/pricing/](https://proxy302.com/pricing/). Related: [which proxy for running multiple accounts](../proxy-for-multiple-accounts/README.md).
 
-*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+*Black Friday, 24 November to 4 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
 
 *Facts checked 21 November 2026.*

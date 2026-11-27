@@ -2,7 +2,7 @@
 
 双 ISP IP，就是两家互相独立的 IP 库都把这个地址归到运营商网络：IPinfo 网页上 ASN 一栏的类型（Type）是 ISP，IP2Location 的使用类型（Usage Type）里带 (ISP)。只要有一家写的是机房、托管或企业，就不算双 ISP。两家的查询页都是公开的，拿到 IP 后两三分钟就能自己查完。Proxy302 的 Claude 档（15 PTC/30 天）和 GPT/Grok 档（10 PTC/30 天）新单优先分配双 ISP 号段，购买页标了「双 ISP」的城市就是；每档第一个 IP 半价，1 PTC = 1 美元。本指南由 Proxy302 维护，我们也卖这些代理。要说清楚的是：这个标签只代表两家 IP 库怎么归类，不是任何平台的结论，也没有哪个 IP 能保证账号不被限制。
 
-*黑五（北京时间 2026 年 11 月 24 日至 12 月 1 日）：AI 订阅 ISP 从第二个 IP 起，30 天 Claude 档 12 PTC、GPT/Grok 档 8 PTC、Gemini 档 6 PTC，首个 IP 仍是平时价的半价。本页其他地方写的是平时价，当天价格以[定价页](https://proxy302.com/zh/pricing/)为准。*<!-- bf2026 -->
+*黑五（北京时间 2026 年 11 月 24 日至 12 月 4 日）：AI 订阅 ISP 从第二个 IP 起，30 天 Claude 档 12 PTC、GPT/Grok 档 8 PTC、Gemini 档 6 PTC，首个 IP 仍是平时价的半价。本页其他地方写的是平时价，当天价格以[定价页](https://proxy302.com/zh/pricing/)为准。*<!-- bf2026 -->
 
 ## 两家库各看哪一栏
 

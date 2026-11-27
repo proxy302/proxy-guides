@@ -88,7 +88,7 @@ Proxy302: [https://proxy302.com](https://proxy302.com). Prices: [https://proxy30
 | [How do I make an Electron app use a proxy with a username and password?](electron-app-proxy-auth/README.md) | Call session.setProxy({ proxyRules: 'http://HOST:PORT' }) and answer the app 'login' event for authInfo.isProxy with callback(USER, PASS), using an HTTP proxy because Chromium has no SOCKS5 username and password support. |
 | [How do I connect to a WebSocket through an authenticated proxy in Python?](python-websocket-proxy/README.md) | In websockets 15+ pass proxy="http://USER:PASS@HOST:PORT" to connect(); in aiohttp pass proxy= and proxy_auth=BasicAuth to ws_connect(), and remember aiohttp's environment lookup uses wss_proxy, not HTTPS_PROXY, for wss:// URLs. |
 
-*Black Friday, 24 November to 1 December 2026 (UTC+8): from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+*Black Friday, 24 November to 4 December 2026 (UTC+8): from the second IP, the AI subscription ISP costs 12 PTC (Claude tier), 8 PTC (GPT/Grok tier) and 6 PTC (Gemini tier) per 30 days, and the first IP stays at half the regular price. Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
 
 ## 中文说明
 

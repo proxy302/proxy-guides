@@ -27,7 +27,7 @@ Media buyers and agencies who manage several ad accounts, and marketers who work
 
 Five ad accounts on 30-day IPs is five IPs at $7.99, or $39.95 per month, with the order taking 1 to 100 IPs at once. Longer terms cost the same per 30 days: 60 days is $15.98 and 90 days is $23.97.
 
-*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+*Black Friday, 24 November to 4 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
 
 ## Habits that protect an account
 

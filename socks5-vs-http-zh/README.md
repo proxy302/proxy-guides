@@ -95,6 +95,6 @@ const { chromium } = require('playwright');
 
 Proxy302 的静态 ISP IP 下单时可选 HTTP 或 SOCKS5，每个国家同价：1 天 US$0.50，30 天 US$7.99，90 天 US$23.97，可按 IP 开自动续费。没有免费试用，拿不准选哪种协议时，可以各买一个 1 天的 IP，在自己的软件里实际测一遍。价格见 [proxy302.com/pricing](https://proxy302.com/pricing/)，中文站 [proxy302.com/zh](https://proxy302.com/zh/)。
 
-*黑五（北京时间 2026 年 11 月 24 日至 12 月 1 日）：静态 ISP 60 天 US$14.00、90 天 US$18.00（1 到 30 天不变）。本页其他地方写的是平时价，当天价格以[定价页](https://proxy302.com/zh/pricing/)为准。*<!-- bf2026 -->
+*黑五（北京时间 2026 年 11 月 24 日至 12 月 4 日）：静态 ISP 60 天 US$14.00、90 天 US$18.00（1 到 30 天不变）。本页其他地方写的是平时价，当天价格以[定价页](https://proxy302.com/zh/pricing/)为准。*<!-- bf2026 -->
 
 *事实核对于 2026 年 11 月 17 日。*

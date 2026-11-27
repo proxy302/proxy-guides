@@ -113,7 +113,7 @@ The AI subscription ISP is a dedicated native static ISP IP picked per AI servic
 | Claude (Claude Pro/Max) | 15 PTC | 7.5 PTC |
 | GPT/Grok (ChatGPT Plus/Pro, SuperGrok) | 10 PTC | 5 PTC |
 
-*Black Friday, 24 November to 1 December 2026 (UTC+8): from the second IP, the Claude tier costs 12 PTC and the GPT/Grok tier 8 PTC per 30 days, and the first IP of each tier stays at half the regular price. The table shows regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+*Black Friday, 24 November to 4 December 2026 (UTC+8): from the second IP, the Claude tier costs 12 PTC and the GPT/Grok tier 8 PTC per 30 days, and the first IP of each tier stays at half the regular price. The table shows regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
 
 1 PTC = US$1. Order on the [AI subscriptions page](https://proxy302.com/use-cases/ai-subscriptions/).
 

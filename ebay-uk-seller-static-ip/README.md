@@ -37,7 +37,7 @@ eBay's [multiple accounts policy](https://www.ebay.co.uk/help/policies/identity-
 | Fewer renewals | UK static ISP IP for 60 or 90 days | $15.98 or $23.97 |
 | Logged-out checks of listings, search and prices as UK buyers see them | Rotating residential | $1.50/GB; prepaid 100 GB $1.35/GB |
 
-*Black Friday, 24 Nov to 1 Dec 2026: static ISP IPs cost $14.00 for 60 days and $18.00 for 90 days, with 1 to 30 days unchanged.*<!-- bf2026 -->
+*Black Friday, 24 Nov to 4 Dec 2026: static ISP IPs cost $14.00 for 60 days and $18.00 for 90 days, with 1 to 30 days unchanged.*<!-- bf2026 -->
 
 Never sign in to Seller Hub through rotating traffic: the address changes between connections, which is the opposite of what an account needs.
 

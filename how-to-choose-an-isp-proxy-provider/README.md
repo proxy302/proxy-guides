@@ -35,7 +35,7 @@ Choose an ISP proxy provider by testing what you would actually receive: the add
 
 Divide the term price by the days. Proxy302's 30-day IP at $7.99 works out to about $0.27 a day, while a 7-day IP at $3.50 is $0.50 a day. 60 days is $15.98 and 90 days is $23.97, so longer terms hold the 30-day rate. Order sizes run 1 to 100 IPs.
 
-*Black Friday, 24 November to 1 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
+*Black Friday, 24 November to 4 December 2026 (UTC+8): 60-day static ISP IPs are US$14.00 and 90-day IPs US$18.00 (1 to 30 days unchanged). Prices elsewhere on this page are the regular prices; [pricing](https://proxy302.com/pricing/) shows what applies on the day.*<!-- bf2026 -->
 
 ## What to avoid
 
